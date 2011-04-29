@@ -23,10 +23,10 @@
     /**
      * Holds all supported playing systems.
      */
-	var systems = new Array();
+    var systems = new Array();
 
-	// Playing system: 4-4-2
-	systems['4-4-2'] = new Array();
+    // Playing system: 4-4-2
+    systems['4-4-2'] = new Array();
     systems['4-4-2']['x'] = [149, 15, 93, 205, 283, 15, 93, 205, 283, 93, 205];
     systems['4-4-2']['y'] = [40, 145, 110, 110, 145, 235, 200, 200, 235, 290, 290];
     
