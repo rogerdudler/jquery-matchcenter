@@ -76,7 +76,7 @@
                 
                 // if the plugin hasn't been initialized yet
                 if (!data) {
-                    $(this).addClass('matchfield');
+                    $(this).addClass('matchcenter-field');
                     if (options) {
                         data = $.extend({}, settings, options);
                         $(this).data('matchcenter', data);
