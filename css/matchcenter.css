@@ -1,64 +1,69 @@
+body { 
+    font-family: sans-serif; 
+    font-size: 12px; 
+}
+
 .matchcenter-field {
-	background-image: url(../img/field-bg.png);
-	width: 400px;
-	height: 500px;
-	position: relative;
+    background-image: url(../img/field-bg.png);
+    width: 400px;
+    height: 500px;
+    position: relative;
 }
 
 .matchcenter-field .player {
-	position: absolute;
-	border: 1px solid #38870f;
-	display: none;
-	-moz-box-shadow: 1px 1px 2px #6a9627;
-	-o-box-shadow: 1px 1px 2px #6a9627;
-	-webkit-box-shadow: 1px 1px 2px #6a9627;
-	box-shadow: 1px 1px 2px #6a9627;
+    position: absolute;
+    border: 1px solid #38870f;
+    display: none;
+    -moz-box-shadow: 1px 1px 2px #6a9627;
+    -o-box-shadow: 1px 1px 2px #6a9627;
+    -webkit-box-shadow: 1px 1px 2px #6a9627;
+    box-shadow: 1px 1px 2px #6a9627;
 }
 
 .matchcenter-field .player-nr {
-	width: 14px;
-	float: left;
-	color: #5f9610;
-	font-weight: bold;
-	text-shadow: 1px 1px 0px #a8ce36;
-	background: -webkit-gradient(linear, left top, left bottom, from(#7db42e), to(#8cc539));
-	padding: 4px 4px;
-	text-align: center;
-	font-size: 12px;
-	border-right: 1px solid #38870f;
+    width: 14px;
+    float: left;
+    color: #5f9610;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #a8ce36;
+    background: -webkit-gradient(linear, left top, left bottom, from(#7db42e), to(#8cc539));
+    padding: 4px 4px;
+    text-align: center;
+    font-size: 12px;
+    border-right: 1px solid #38870f;
     border-top: 1px solid #8dc639;
 }
 
 .matchcenter-field .player-name {
-	width: 65px;
-	color: white;
-	float: left;
-	font-weight: bold;
-	text-shadow: 1px 1px 0px #61871c;
-	background: -webkit-gradient(linear, left top, left bottom, from(#adcf35), to(#8ac439));
-	padding: 4px 6px;
-	font-size: 12px;
-	border-top: 1px solid #beda5a;
+    width: 65px;
+    color: white;
+    float: left;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #61871c;
+    background: -webkit-gradient(linear, left top, left bottom, from(#adcf35), to(#8ac439));
+    padding: 4px 6px;
+    font-size: 12px;
+    border-top: 1px solid #beda5a;
 }
 
 .matchcenter-field .player-yellowcard {
-	width: 8px;
-	height: 12px;
-	background: -webkit-gradient(linear, left top, left bottom, from(#fdf875), to(#e8eb00));
-	border: 1px solid #797900;
-	position: absolute;
-	top: -8px;
-	right: 5px;
-	display: none;
+    width: 8px;
+    height: 12px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fdf875), to(#e8eb00));
+    border: 1px solid #797900;
+    position: absolute;
+    top: -8px;
+    right: 5px;
+    display: none;
 }
 
 .matchcenter-field .player-redcard {
-	width: 8px;
-	height: 12px;
-	background: -webkit-gradient(linear, left top, left bottom, from(#fd7575), to(#eb0000));
-	border: 1px solid #a50000;
-	position: absolute;
-	top: -8px;
-	right: 2px;
-	display: none;
+    width: 8px;
+    height: 12px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fd7575), to(#eb0000));
+    border: 1px solid #a50000;
+    position: absolute;
+    top: -8px;
+    right: 2px;
+    display: none;
 }
