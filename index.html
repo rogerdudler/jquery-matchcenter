@@ -9,15 +9,17 @@
 <body>
 <div id="matchfield"></div>
 
-<input type="button" onclick="$('#matchfield').matchcenter('highlightPlayer', 7);" value="Highlight" />
-<input type="button" onclick="$('#matchfield').matchcenter('addYellowCard' , 8)" value="Gelbe Karte" />
-<input type="button" onclick="$('#matchfield').matchcenter('addYellowCard' , 10)" value="Gelbe Karte für Scarione" />
-<input type="button" onclick="$('#matchfield').matchcenter('addRedCard', 10)" value="Rote Karte für Scarione" />
-<input type="button" onclick="$('#matchfield').matchcenter('substitutePlayer', 5, 12, 3, 'Fernando')" value="Auswechslung" />
+<h2>Aufstellung ändern</h2>
 <input type="button" onclick="$('#matchfield').matchcenter('setPlayingSystem', '4-4-1-1');" value="4-4-1-1" />
 <input type="button" onclick="$('#matchfield').matchcenter('setPlayingSystem', '4-4-2');" value="4-4-2" />
 <input type="button" onclick="$('#matchfield').matchcenter('setPlayingSystem', '4-3-3');" value="4-3-3" />
 <input type="button" onclick="$('#matchfield').matchcenter('setPlayingSystem', '4-1-2-1-2');" value="4-1-2-1-2" />
+
+<h2>Weitere Aktionen</h2>
+<input type="button" onclick="$('#matchfield').matchcenter('highlightPlayer', 7);" value="Spieler hervorheben" /><br />
+<input type="button" onclick="$('#matchfield').matchcenter('addYellowCard' , 10)" value="Gelbe Karte" /><br />
+<input type="button" onclick="$('#matchfield').matchcenter('addRedCard', 10)" value="Rote Karte" /><br />
+<input type="button" onclick="$('#matchfield').matchcenter('substitutePlayer', 5, 12, 3, 'Fernando')" value="Auswechslung" />
 
 <script type="text/javascript">
 var matchcenter = $('#matchfield').matchcenter({system: '4-4-2'});
